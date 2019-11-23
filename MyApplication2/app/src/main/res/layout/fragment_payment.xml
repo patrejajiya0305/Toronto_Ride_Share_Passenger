@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road_diet_minimal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARD HOLDER NAME"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etCardHolder"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_box"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:hint=""
+        android:textColor="@color/colorblack"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credit card"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etCardNo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_box"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:maxLength="22"
+        android:inputType="number"
+        android:hint=""
+        android:textColor="@color/colorblack"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiry"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etExpiry"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_box"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint=""
+        android:textColor="@color/colorblack"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cvv"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etCvv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_box"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint=""
+        android:textColor="@color/colorblack"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:text="Save"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"/>
+
+</LinearLayout>

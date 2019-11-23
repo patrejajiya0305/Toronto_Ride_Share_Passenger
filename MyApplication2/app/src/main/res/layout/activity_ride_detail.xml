@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road_diet_minimal"
+    tools:context=".RideDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="30"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:text="Destination"/>
+        <TextView
+            android:id="@+id/tvDestination"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="70"
+            android:background="@drawable/edit_box"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint=""
+            android:textColor="@color/colorblack"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="30"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:text="Distance"/>
+        <TextView
+            android:id="@+id/tvDestance"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="70"
+            android:background="@drawable/edit_box"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint=""
+            android:singleLine="true"
+            android:textColor="@color/colorblack"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:text="Estimated Price"/>
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="70"
+            android:background="@drawable/edit_box"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:hint=""
+            android:singleLine="true"
+            android:textColor="@color/colorblack"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="Map"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="Confirm"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>

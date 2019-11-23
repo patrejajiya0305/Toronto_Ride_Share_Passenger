@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Toronto share ride</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">TORONTO RIDE SHARE</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_credit">Payment</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="error_require_email_pwd">Enter Email and Password.</string>
+    <string name="error_all_required">All fields required</string>
+    <string name="error_password_mismatch">Password mismatch</string>
+    <string name="alert_invalid_email">Invalid Email address found.</string>
+    <string name="alert_invalid_card">16 digit card no.</string>
+    <string name="error_no_internet">No Internet Connection</string>
+    <string name="error_internal_server">Internal Server Error</string>
+    <string name="error_unable_connect">Unable to reach server. Kindly try again later.</string>
+    <string name="google_maps_key">AIzaSyATnQA8Z7tcPFGo4Vpa_r8vShLfDi-QvcM</string>
+
+</resources>

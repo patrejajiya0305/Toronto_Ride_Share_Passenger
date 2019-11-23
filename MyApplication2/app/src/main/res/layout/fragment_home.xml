@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road_diet_minimal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        android:text="Where are you going today?"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Enter the postal code"/>
+
+        <EditText
+            android:id="@+id/etPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_box"
+            android:singleLine="true"
+            android:maxLength="7"
+            android:hint="Enter"
+            android:textColor="@color/colorblack"/>
+
+    </LinearLayout>
+
+
+    <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Search"
+        android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+</LinearLayout>
